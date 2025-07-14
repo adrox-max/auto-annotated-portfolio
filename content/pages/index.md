@@ -10,12 +10,12 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - elementId: ''
+  - elementId: ""
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      Jestem freelancerem i chętnie zrealizuj twój projekt strony internetowej, mam doświadczenie 
+      przy kilku projektach co zobaczysz poniżej
     subtitle: >-
       This is my info—I’m sharing it all this with ya’ll to impress you with all
       the hard work I’ve done in the past few years. Once you’re impressed, you
@@ -40,7 +40,7 @@ sections:
     actions: []
   - colors: colors-f
     type: FeaturedProjectsSection
-    elementId: ''
+    elementId: ""
     actions:
       - type: Link
         label: See all projects
@@ -54,6 +54,7 @@ sections:
       - content/pages/projects/project-two.md
       - content/pages/projects/project-three.md
       - content/pages/projects/project-one.md
+      - contemt/pages/projects/project-foru.md
     styles:
       self:
         height: auto
@@ -64,9 +65,9 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
-    subtitle: Projects
+    subtitle: Projekty
   - type: FeaturedPostsSection
-    elementId: ''
+    elementId: ""
     colors: colors-f
     variant: variant-d
     subtitle: Featured Posts
