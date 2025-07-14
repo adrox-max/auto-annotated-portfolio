@@ -10,11 +10,11 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - elementId: ''
+  - elementId: ""
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
+      # Hey I’m a developer lol. I’ve been born and raised in the world, and that’s
       also where I’m based. I’m currently a free agent, ex-this, ex-that,
       ex-super big name. When I’m not coding, writing or creating, I eat
       cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
@@ -52,7 +52,7 @@ sections:
         borderStyle: solid
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
+    subtitle: "I worked with these folks:"
     images:
       - type: ImageBlock
         url: /images/logo1.svg
@@ -101,14 +101,14 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: FeaturedItemsSection
-    subtitle: 'You can find me here:'
+    subtitle: "You can find me here:"
     colors: colors-f
     items:
       - type: FeaturedItem
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
+            url: "https://github.com/"
         styles:
           self:
             textAlign: left
@@ -116,7 +116,7 @@ sections:
         actions:
           - type: Link
             label: Twitter
-            url: 'https://twitter.com/'
+            url: "https://twitter.com/"
         styles:
           self:
             textAlign: left
@@ -124,7 +124,7 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
+            url: "https://www.linkedin.com/"
         styles:
           self:
             textAlign: left
@@ -132,7 +132,7 @@ sections:
         actions:
           - type: Link
             label: CodePen
-            url: 'https://codepen.io/'
+            url: "https://codepen.io/"
         styles:
           self:
             textAlign: left
@@ -140,7 +140,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
+            url: "https://discord.com/"
         styles:
           self:
             textAlign: left
@@ -148,7 +148,7 @@ sections:
         actions:
           - type: Link
             label: Instagram
-            url: 'https://www.instagram.com/'
+            url: "https://www.instagram.com/"
         styles:
           self:
             textAlign: left
@@ -177,10 +177,10 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: 'Skills:'
+    subtitle: "Skills:"
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: "WEB 1, 2, 3"
       - type: Label
         label: React
       - type: Label
@@ -208,7 +208,7 @@ sections:
         borderStyle: solid
   - type: TextSection
     variant: variant-a
-    subtitle: 'Contact:'
+    subtitle: "Contact:"
     colors: colors-f
     text: |
       [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
@@ -227,7 +227,7 @@ sections:
     colors: colors-f
     items:
       - type: FeaturedItem
-        subtitle: 'Experience:'
+        subtitle: "Experience:"
         text: |-
           **Current**
 
@@ -252,7 +252,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        subtitle: 'Education:'
+        subtitle: "Education:"
         text: |-
           **2015-2018**
 
