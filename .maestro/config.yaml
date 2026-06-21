@@ -1,0 +1,8 @@
+# Konfiguracja Maestro — aesthetic-axolotl portfolio
+# Uruchom: maestro test .maestro/flows/
+# Wymaga: Maestro CLI (curl -Ls https://get.maestro.mobile.dev | bash)
+# + podlaczonego telefonu/emulatora Android lub iOS
+flows:
+  - flows/home_mobile.yaml
+  - flows/navigation_hamburger.yaml
+  - flows/scroll_sections.yaml

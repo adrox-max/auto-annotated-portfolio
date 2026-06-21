@@ -23,12 +23,12 @@ export default function Component(props: HeroSection) {
                 <div className={classNames('flex-1 w-full', mapStyles({ textAlign: sectionAlign }))}>
                     {title && (
                         <AnnotatedField path=".title">
-                            <h1 className="text-5xl sm:text-6xl">{title}</h1>
+                            <h1 className="text-3xl sm:text-5xl lg:text-6xl">{title}</h1>
                         </AnnotatedField>
                     )}
                     {subtitle && (
                         <AnnotatedField path=".subtitle">
-                            <p className={classNames('text-xl sm:text-2xl', { 'mt-4': title })}>{subtitle}</p>
+                            <p className={classNames('text-lg sm:text-xl lg:text-2xl', { 'mt-4': title })}>{subtitle}</p>
                         </AnnotatedField>
                     )}
                     {text && (

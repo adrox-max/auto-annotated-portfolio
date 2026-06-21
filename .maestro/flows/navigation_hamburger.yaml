@@ -1,0 +1,15 @@
+# Test: Hamburger menu na mobile
+# Sprawdza czy menu otwiera sie i zamyka poprawnie
+appId: com.android.chrome
+---
+- launchApp
+- openLink: "https://aesthetic-axolotl-3d7139.netlify.app"
+- waitForAnimationToEnd
+- tapOn:
+    description: "Open Menu"
+- waitForAnimationToEnd
+- takeScreenshot: menu_open
+- tapOn:
+    description: "Close Menu"
+- waitForAnimationToEnd
+- takeScreenshot: menu_closed

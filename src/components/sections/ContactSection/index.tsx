@@ -14,7 +14,7 @@ export default function ContactSection(props) {
             <div className={classNames('flex gap-8', mapFlexDirectionStyles(styles.self?.flexDirection ?? 'row'))}>
                 <div className="flex-1 w-full">
                     {title && (
-                        <h2 className={classNames('text-4xl sm:text-5xl', mapStyles({ textAlign: sectionAlign }))}>
+                        <h2 className={classNames('text-3xl sm:text-4xl lg:text-5xl', mapStyles({ textAlign: sectionAlign }))}>
                             {title}
                         </h2>
                     )}

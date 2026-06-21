@@ -22,11 +22,11 @@ export default function FeaturedItemsSection(props) {
     return (
         <Section elementId={elementId} colors={colors} styles={styles.self}>
             {title && (
-                <h2 className={classNames('text-4xl sm:text-5xl', mapStyles({ textAlign: sectionAlign }))}>{title}</h2>
+                <h2 className={classNames('text-3xl sm:text-4xl lg:text-5xl', mapStyles({ textAlign: sectionAlign }))}>{title}</h2>
             )}
             {subtitle && (
                 <p
-                    className={classNames('text-lg sm:text-xl', mapStyles({ textAlign: sectionAlign }), {
+                    className={classNames('text-base sm:text-lg lg:text-xl', mapStyles({ textAlign: sectionAlign }), {
                         'mt-6': title
                     })}
                 >
@@ -67,9 +67,9 @@ export default function FeaturedItemsSection(props) {
 function mapColStyles(columns) {
     switch (columns) {
         case 4:
-            return 'md:grid-cols-4';
+            return 'sm:grid-cols-2 md:grid-cols-4';
         case 3:
-            return 'md:grid-cols-3';
+            return 'sm:grid-cols-2 md:grid-cols-3';
         case 2:
             return 'md:grid-cols-2';
         default:

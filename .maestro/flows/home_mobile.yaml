@@ -1,0 +1,10 @@
+# Test: Strona glowna na mobile (Android Chrome)
+# Sprawdza czy strona laduje sie bez bledow na mobile
+appId: com.android.chrome
+---
+- launchApp
+- openLink: "https://aesthetic-axolotl-3d7139.netlify.app"
+- waitForAnimationToEnd
+- takeScreenshot: home_mobile_top
+- assertVisible:
+    enabled: true

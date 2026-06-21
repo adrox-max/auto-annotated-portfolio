@@ -1,0 +1,14 @@
+# Test: Przewijanie sekcji na mobile
+# Sprawdza czy sekcje wyswietlaja sie poprawnie podczas scrollowania
+appId: com.android.chrome
+---
+- launchApp
+- openLink: "https://aesthetic-axolotl-3d7139.netlify.app"
+- waitForAnimationToEnd
+- takeScreenshot: scroll_top
+- scrollVerticalBy: 500
+- waitForAnimationToEnd
+- takeScreenshot: scroll_mid
+- scrollVerticalBy: 1000
+- waitForAnimationToEnd
+- takeScreenshot: scroll_bottom
